@@ -135,13 +135,65 @@ header {
 }
 
 #container-three {
+    padding: 200px 400px;
     background-color: #E5E7EB;
-
-    display: flex;
 }
 
-#container-three q {
-    color: #1F2937
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote q {
+    color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+#container-four {
+    padding: 200px;
+}
+
+.cta-container {
+    padding: 100px 195px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.cta-container button {
+    color: white;
+    background-color: #3882f6;
+
+    height: 48px;
+    width: 128px;
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+footer {
+    color: white;
+    padding: 48px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
